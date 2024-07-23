@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Ask Me a Question</h2>
+        <input type="" placeholder="Type something..."><br>
+        <button class="hex" onclick="accept()">Accept</button>
+        <button class="hex" onclick="decline()">Decline</button>
+    </div>
+    <script>
+        var message=document.getElementsByClassName("hex");
+        function accept(){
+            alert("Accepted Your Message")
+            return false;
+        }
+        function decline(){
+            alert("Declined Your Message")
+        }
+    </script>
+    
+</body>
+</html>
